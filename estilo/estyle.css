@@ -80,6 +80,11 @@ section > p {
     padding-bottom: 2em;
 }
 
+.imgem {
+    max-width: 100%;
+    height: auto;
+  }
+
 section.imagem > p {
     display: inline-block;
     border-radius: 10px;
