@@ -156,3 +156,25 @@ footer {
         padding: 5px;
     }
 }
+
+/* Estilo para telas grandes (desktops) */
+@media (min-width: 1024px) {
+    .container {
+      width: 80%;
+      margin: 0 auto;
+    }
+  }
+  
+  /* Estilo para tablets */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .container {
+      width: 90%;
+    }
+  }
+  
+  /* Estilo para smartphones */
+  @media (max-width: 767px) {
+    .container {
+      width: 100%;
+    }
+  }
